@@ -16,23 +16,23 @@ Reboot the box, using the virtual keyboard and use F11 to go to the boot menu. P
 
 ### VMWare Installer
 
-![image-20220125013719159](C:\Users\liam\AppData\Roaming\Typora\typora-user-images\image-20220125013719159.png)
+![image-20220125013719159](https://github.com/liamb8/sys350/blob/main/Pictures/VmwareInstaller.JPG)
 
 There shouldn't be any VMFS or claimed partitions, Install ESXi on the smaller of the two drives if there is a difference between them.
 
-![image-20220125013906466](C:\Users\liam\AppData\Roaming\Typora\typora-user-images\image-20220125013906466.png)
+![image-20220125013906466](https://github.com/liamb8/sys350/blob/main/Pictures/DiskSelection.JPG)
 
  Choose all the defaults, make sure to use a strong root password when prompted. Then press F11 to install. 
 
 **Unplug the Virtual Media when Complete**
 
-![image-20220125014032552](C:\Users\liam\AppData\Roaming\Typora\typora-user-images\image-20220125014032552.png)
+![image-20220125014032552](https://github.com/liamb8/sys350/blob/main/Pictures/UnplugVirtualStorage.JPG)
 
 Reboot the box
 
 ### Network Configuration
 
-![image-20220125014633065](C:\Users\liam\AppData\Roaming\Typora\typora-user-images\image-20220125014633065.png)
+![image-20220125014633065](https://github.com/liamb8/sys350/blob/main/Pictures/ExsiNetwork.JPG)
 
 
 
