@@ -1,6 +1,12 @@
 # ESXi and Basic Networking
 
-### 
+### Reflection
+
+------
+
+During this lab I accessed my supermicro using viewportal. I installed ESXi7 using virtual storage from the console redirection application. After installing ESXi I configured a static IP address from the console then accessed ESXi using the native browser ESXI client via super3.cyber.local. I also setup DataStores within ESXi and configured a vSwitch, Portgroup, and an Internal Network. Also setup pfSense and networked it and setup Mgmt.
+
+There were no issues with accomplishing this milestone, however ironically the documentation took longer to make than the lab itself. 
 
 ### Console Redirection
 
@@ -15,6 +21,8 @@ Download the Vmware VMvisor on the rackstation2.cyber.local SMB share. Then unde
 Reboot the box, using the virtual keyboard and use F11 to go to the boot menu. Pick the UEFI Virtual CDROM and boot to the installer.
 
 ### VMWare Installer
+
+------
 
 ![image-20220125013719159](https://github.com/liamb8/sys350/blob/main/Pictures/VmwareInstaller.JPG)
 
@@ -32,11 +40,15 @@ Reboot the box
 
 ### Network Configuration
 
+------
+
 ![image-20220125014633065](https://github.com/liamb8/sys350/blob/main/Pictures/ExsiNetwork.JPG)
 
 
 
 ### Configuring Datastores
+
+------
 
 Go to the *Storage tab* under the *Navigator* and click on *New Datastore*. Under select creation type select *create new VMFS datastore*. 
 
@@ -52,6 +64,8 @@ Click on *datastore browser* then select *datastore2-super3* and create a new di
 
 ### Configuring Vswitch, Portgroup, and Internal Network
 
+------
+
 Under the Navigator go to the *Networking tab*. Then go to *Virtual Switches* and select *add standard virtual switch*. Follow the config below to setup a virtual switch:
 
 ![image-20220125015642904](https://github.com/liamb8/sys350/blob/main/Pictures/NewVirtSwitch.jpg)
@@ -61,6 +75,8 @@ After configuring the virtual switch go to the *port groups* tab and select *add
 ![image-20220125015835026](https://github.com/liamb8/sys350/blob/main/Pictures/NewPortGroup.jpg)
 
 ### Setup Pfsense
+
+------
 
 ##### Create a new Pfsense VM
 
@@ -88,6 +104,8 @@ ESXi6.5 Compatability (You can export it later as an OVA if you want)
 
 ### Configure the Firewall
 
+------
+
 Set Interface IP Addresses to the following 
 
 - WAN/em0 
@@ -99,6 +117,8 @@ Set Interface IP Addresses to the following
   - no on dhcp
 
 ### Configure MGMT
+
+------
 
 **Installation**  
 
@@ -122,6 +142,8 @@ snapshot as Base
   - DNS is also 1.1.1.1 
 
 ### Finish Pfsense Config
+
+------
 
 Go through the wizard, changing the following values 
 
