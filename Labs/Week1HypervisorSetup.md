@@ -42,11 +42,11 @@ Go to the *Storage tab* under the *Navigator* and click on *New Datastore*. Unde
 
 Call it datastore2-super3 and pick the device shown. Use VMFS6 and when complete it should look similar to this:
 
-![image-20220125015102074](C:\Users\liam\AppData\Roaming\Typora\typora-user-images\image-20220125015102074.png)
+![image-20220125015102074](https://github.com/liamb8/sys350/blob/main/Pictures/DataStoreLists.jpg)
 
 Click on *datastore browser* then select *datastore2-super3* and create a new directory called isos. Upload the pfSense and Xubuntu ISOs to the isos directory. 
 
-![image-20220125015349880](C:\Users\liam\AppData\Roaming\Typora\typora-user-images\image-20220125015349880.png)
+![image-20220125015349880](https://github.com/liamb8/sys350/blob/main/Pictures/UploadIsos.JPG)
 
 ### 
 
@@ -54,11 +54,11 @@ Click on *datastore browser* then select *datastore2-super3* and create a new di
 
 Under the Navigator go to the *Networking tab*. Then go to *Virtual Switches* and select *add standard virtual switch*. Follow the config below to setup a virtual switch:
 
-![image-20220125015642904](C:\Users\liam\AppData\Roaming\Typora\typora-user-images\image-20220125015642904.png)
+![image-20220125015642904](https://github.com/liamb8/sys350/blob/main/Pictures/NewVirtSwitch.jpg)
 
 After configuring the virtual switch go to the *port groups* tab and select *add port group*. Follow the config below to setup a port group:
 
-![image-20220125015835026](C:\Users\liam\AppData\Roaming\Typora\typora-user-images\image-20220125015835026.png)
+![image-20220125015835026](https://github.com/liamb8/sys350/blob/main/Pictures/NewPortGroup.jpg)
 
 ### Setup Pfsense
 
