@@ -86,7 +86,7 @@ ESXi6.5 Compatability (You can export it later as an OVA if you want)
   - disconnect cd by changing to "Host Device" 
   - snapshot called Base 
 
-##### Configure the Firwall
+### Configure the Firewall
 
 Set Interface IP Addresses to the following 
 
