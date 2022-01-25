@@ -10,7 +10,7 @@ Under the *Remote Control* tab click *Console Redirection* then click *Launch Co
 
 Download the Vmware VMvisor on the rackstation2.cyber.local SMB share. Then under *Virtual Media* click on *Virtual Storage* then a box will pop up for Virtual Storage settings. In the Virtual Storage box click *Open Image* and browse to the Vmware VMvisor iso image that was downloaded. After selecting the iso click *Plug in* and then press Ok.
 
-![image-20220125013509178](C:\Users\liam\AppData\Roaming\Typora\typora-user-images\image-20220125013509178.png)
+![image-20220125013509178](https://github.com/liamb8/sys350/blob/main/Pictures/VirtualStorage.JPG)
 
 Reboot the box, using the virtual keyboard and use F11 to go to the boot menu. Pick the UEFI Virtual CDROM and boot to the installer.
 
