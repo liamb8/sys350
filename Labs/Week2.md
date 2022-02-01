@@ -12,7 +12,7 @@ Download VCenter and Window Server ISOs from the link provided. Fastest way is t
 
 `wget http://192.168.3.110/FileDownload`
 
-![DataStoreAdd](C:\Users\liam\Documents\GitHub\sys350\Pictures\Lab2\DataStoreAdd.JPG)
+![DataStoreAdd](https://github.com/liamb8/sys350/blob/main/Pictures/Lab2/DataStoreAdd.JPG)
 
 ## Setup Active Directory
 
