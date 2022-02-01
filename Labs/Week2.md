@@ -4,7 +4,7 @@
 
 # Reflection
 
-I wouldn't say that this lab was easy nor hard. It was very time consuming with a lot of the updates and installing things. I ran into some issues with the `pool.ntp.org` not working. Not entirely sure why but my guess is that it could be due to 350-internal not having internet access. Still working on a fix for that as it was working last week not sure what happened in between. 
+I wouldn't say that this lab was easy nor hard. It was very time consuming with a lot of the updates and installing things. I ran into some issues with the `pool.ntp.org` not working. It ended up being that I couldn't connect to it since I didn't have any internet. The internet wasn't working because I had set the default gateway ip address incorrectly on the pfsense firewall. After fixing the ip address on the pfsense GUI it didn't properly set the new ip address as the default gateway. The setting was at automatic and so I had to change it to the default gateway that I want to use in order to get it to work.
 
 ## Add Server 19 and VCSA ISOs to DataStore 2
 
