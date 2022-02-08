@@ -10,7 +10,7 @@ During this lab I added new PTR records for nested1-3 with their associated ip a
 
 In the Server Manager go to *Tools* then *DNS*. After this the DNS Manager will pop up go to the Forward Lookup Zones and right click liam.local and create a New Host (A Record). Input the name and then input the ip address and click add host.
 
-![image-20220207222744513](C:\Users\liam\AppData\Roaming\Typora\typora-user-images\image-20220207222744513.png)
+![image-20220207222744513](https://github.com/liamb8/sys350/blob/main/Pictures/Lab3/DNS.JPG)
 
 
 
@@ -18,15 +18,15 @@ In the Server Manager go to *Tools* then *DNS*. After this the DNS Manager will 
 
 Go to 192.168.3.110/ova and download the Nested_ESXi ova file. After this in Vcenter deploy the OVF file following the steps below. Go through steps 1-9 and leave everything except step 1, 6, and 7 as default settings. Repeat these steps 2 more times for nested2 and nested3 while changing the ip addresses accordingly for both. After adding nested1-3 add them as hosts under sys350 in vcenter.
 
-![image-20220207223823146](C:\Users\liam\AppData\Roaming\Typora\typora-user-images\image-20220207223823146.png)
+![image-20220207223823146](https://github.com/liamb8/sys350/blob/main/Pictures/Lab3/OVFTemplateURL.JPG)
 
-![image-20220207223858700](C:\Users\liam\AppData\Roaming\Typora\typora-user-images\image-20220207223858700.png)
+![image-20220207223858700](https://github.com/liamb8/sys350/blob/main/Pictures/Lab3/OVFTemplateStorage.JPG)
 
-![image-20220207224443564](C:\Users\liam\AppData\Roaming\Typora\typora-user-images\image-20220207224443564.png)
+![image-20220207224443564](https://github.com/liamb8/sys350/blob/main/Pictures/Lab3/OVFTemplateDone.JPG)
 
 ## Change VSwitch Settings
 
-![image-20220207225043373](C:\Users\liam\AppData\Roaming\Typora\typora-user-images\image-20220207225043373.png)
+![image-20220207225043373](https://github.com/liamb8/sys350/blob/main/Pictures/Lab3/VSwitchSettings.JPG)
 
 ## Convert To Template
 
@@ -44,10 +44,10 @@ Download the ubuntu-20.0.4.3 ova from 192.168.3.110 and upload it to the isos di
 
 Go to the shorcut menu and select VM Customization Specifications Shortcut. Create a shortcut with the specifications listed in the picture below:
 
-![image-20220207225604806](C:\Users\liam\AppData\Roaming\Typora\typora-user-images\image-20220207225604806.png)
+![image-20220207225604806](https://github.com/liamb8/sys350/blob/main/Pictures/Lab3/UbuntuShortcutConfig.JPG)
 
 After this create a new VM from the Template make sure to select Customize the operating system in order to use the template.
 
-![image-20220207225748546](C:\Users\liam\AppData\Roaming\Typora\typora-user-images\image-20220207225748546.png)
+![image-20220207225748546](https://github.com/liamb8/sys350/blob/main/Pictures/Lab3/CustomOperatingSys.JPG)
 
 Follow these same steps when setting up a vm with CentOS. 
