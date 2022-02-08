@@ -2,6 +2,10 @@
 
 
 
+## Reflection
+
+During this lab I added new PTR records for nested1-3 with their associated ip addresses. I also created templates to setup Ubuntu and CentOS Vms. Overall the lab wasn't that bad the only issue was with the nested VMs. For some reason after setting them up they wouldn't save the network configuration done in the Deploy OVA Template setup. It also didn't accept the password setup in that process either. 
+
 ## Add Nested PTR Records to DNS
 
 In the Server Manager go to *Tools* then *DNS*. After this the DNS Manager will pop up go to the Forward Lookup Zones and right click liam.local and create a New Host (A Record). Input the name and then input the ip address and click add host.
