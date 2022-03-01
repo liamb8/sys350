@@ -34,7 +34,7 @@ Move a VM into the `alice` folder and login as `alice` into vcenter and the vm i
 
 Move a different vm into the `shared-vms` folder and assign the permissions of `sys350-power-user` to `virtual machine power user` and `sys350-restricted-user` to `virtual machine console user`. Alice should now have power level privileges over VMs in the `shared-vms` folder. While Bob and Charlie should be limited to a handful of console operations.
 
-After this go to the three bar tab on the top left of vcener and select `Administration`. Under `Access Control` select `Roles` then find the `Virtual Machine console user role` and clone it and call it `Virtual Machine console no power user` and restrict the role from being able to `Power On` and `Power Off` vms. Then change the permissions for the `shared-vms` folder so that the restricted user group now gets the new limited role. 
+After this go to the three bar tab on the top left of vcener and select `Administration`. Under `Access Control` select `Roles` then find the `Virtual Machine console user role` and clone it and call it `Virtual Machine console no power user` then restrict the role from being able to `Power On` and `Power Off` vms. Then change the permissions for the `shared-vms` folder so that the restricted user group now gets the new limited role. 
 
 
 
