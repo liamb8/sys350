@@ -258,7 +258,7 @@ To list all users, execute the following command:
 $ openstack --insecure user list --domain mydomain
 ```
 
-
+![](https://github.com/liamb8/sys350/blob/main/Pictures/Lab5/UserList.JPG)
 
 To create a group, execute the following command:
 
@@ -272,7 +272,7 @@ To list all groups, execute the following command:
 $ openstack --insecure group list --domain mydomain
 ```
 
-
+![](https://github.com/liamb8/sys350/blob/main/Pictures/Lab5/GroupListDomain.JPG)
 
 To add the *myuser* user to the *mygroup* group, execute the following command:
 
@@ -308,17 +308,13 @@ download the RC file for the *myuser* user, visit the OpenStack dashboard at `ht
 
 From the OpenStack dashboard landing page, navigate to the *myuser* drop-down menu on the top right, click it, and select **OpenStack RC File** to download the RC file:
 
-
-
-
+![](https://github.com/liamb8/sys350/blob/main/Pictures/Lab5/RCFileDownload.png)
 
 To set up the OpenStack client for the *myuser* user, open a new terminal window, execute the following command, and type *mypassword* when asked for the password:
 
 ```nohighlight
 $ source ~/Downloads/myproject-openrc.sh
 ```
-
-
 
 Create a key pair, execute the following command:
 
@@ -332,9 +328,7 @@ To list all key pairs, execute the following command:
 $ openstack --insecure keypair list
 ```
 
-
-
-
+![](https://github.com/liamb8/sys350/blob/main/Pictures/Lab5/KeypairList.JPG)
 
 ## Network
 
@@ -362,9 +356,7 @@ To list all networks, execute the following command:
 $ openstack --insecure network list
 ```
 
-
-
-
+![](https://github.com/liamb8/sys350/blob/main/Pictures/Lab5/NetworkListDomain.JPG)
 
 To create the subnet, execute the following command:
 
@@ -378,9 +370,7 @@ To list all subnets, execute the following command:
 $ openstack --insecure subnet list
 ```
 
-
-
-
+![](https://github.com/liamb8/sys350/blob/main/Pictures/Lab5/SubnetList.JPG)
 
 To create a router, execute the following command:
 
@@ -394,9 +384,7 @@ To list all routers, execute the following command:
 $ openstack --insecure router list
 ```
 
-
-
-
+![](https://github.com/liamb8/sys350/blob/main/Pictures/Lab5/RouterList.JPG)
 
 To set the *external* network as a gateway for the router, execute the following command:
 
@@ -422,7 +410,7 @@ To list all floating IPs, execute the following command:
 $ openstack --insecure floating ip list
 ```
 
-
+![](https://github.com/liamb8/sys350/blob/main/Pictures/Lab5/FloatingIPList.JPG)
 
 To create a security group, execute the following command:
 
@@ -436,7 +424,7 @@ To list all security groups, execute the following command:
 $ openstack --insecure security group list
 ```
 
-
+![](https://github.com/liamb8/sys350/blob/main/Pictures/Lab5/SecurityGroupList.JPG)
 
 
 
@@ -452,7 +440,7 @@ To list all rules in the security group, execute the following command:
 $ openstack --insecure security group rule list mysecuritygroup
 ```
 
-
+![](https://github.com/liamb8/sys350/blob/main/Pictures/Lab5/SecurityGroupRuleList.JPG)
 
 ## Instances
 
@@ -482,7 +470,7 @@ To list all instances, execute the following command:
 $ openstack --insecure server list
 ```
 
-
+![](https://github.com/liamb8/sys350/blob/main/Pictures/Lab5/ServerList.JPG)
 
 To associate floating IP, execute the following commands:
 
