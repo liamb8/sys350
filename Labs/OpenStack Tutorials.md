@@ -76,7 +76,7 @@ You can test this by using:
 $ openstack --insecure server list
 ```
 
-
+![](https://github.com/liamb8/sys350/blob/main/Pictures/Lab5/ServerList.JPG)
 
 ## Services
 
@@ -86,7 +86,7 @@ To list all registered OpenStack services, execute the following command:
 $ openstack --insecure catalog list
 ```
 
-
+![](https://github.com/liamb8/sys350/blob/main/Pictures/Lab5/CatalogList.JPG)
 
 To communicate with Keystone, you can use the OpenStack client. For example, to list all users created by Keystone, execute the following command:
 
@@ -94,7 +94,7 @@ To communicate with Keystone, you can use the OpenStack client. For example, to 
 $ openstack --insecure user list
 ```
 
-
+![](https://github.com/liamb8/sys350/blob/main/Pictures/Lab5/UserList.JPG)
 
 To communicate with Glance, you can use the OpenStack client. For example, to list all images uploaded to Glance, execute the following command:
 
@@ -102,7 +102,7 @@ To communicate with Glance, you can use the OpenStack client. For example, to li
 $ openstack --insecure image list
 ```
 
-
+![](https://github.com/liamb8/sys350/blob/main/Pictures/Lab5/ImageList.JPG)
 
 To communicate with Neutron, you can use the OpenStack client. For example, to list all virtual networks created by Neutron, execute the following command:
 
@@ -110,7 +110,7 @@ To communicate with Neutron, you can use the OpenStack client. For example, to l
 $ openstack --insecure network list
 ```
 
-
+![](https://github.com/liamb8/sys350/blob/main/Pictures/Lab5/NetworkList.JPG)
 
 To communicate with Nova, you can use the OpenStack client. For example, to list all hypervisors managed by Nova, execute the following command:
 
@@ -118,7 +118,7 @@ To communicate with Nova, you can use the OpenStack client. For example, to list
 $ openstack --insecure hypervisor list
 ```
 
-
+![](https://github.com/liamb8/sys350/blob/main/Pictures/Lab5/HypervisorList.JPG)
 
 To communicate with Cinder, you can use the OpenStack client. For example, to list all volumes created by Cinder, execute the following command:
 
@@ -126,23 +126,21 @@ To communicate with Cinder, you can use the OpenStack client. For example, to li
 $ openstack --insecure volume list
 ```
 
-
+![](https://github.com/liamb8/sys350/blob/main/Pictures/Lab5/VolumeList.JPG)
 
 ## Dashboard
 
 To list all running instances inside of the *admin* project, navigate to **Project** -> **Compute** -> **Instances**:
 
-
+![](https://github.com/liamb8/sys350/blob/main/Pictures/Lab5/DashInstances.png)
 
 To list all hypervisors, navigate to **Admin** -> **Compute** -> **Hypervisors**:
 
-
+![](https://github.com/liamb8/sys350/blob/main/Pictures/Lab5/DashHypervisors.png)
 
 To list all user accounts, navigate to **Identity** -> **Users**:
 
-
-
-
+![](https://github.com/liamb8/sys350/blob/main/Pictures/Lab5/DashUsers.png)
 
 ## Templates
 
@@ -182,7 +180,7 @@ To list all flavors, execute the following command:
 $ openstack --insecure flavor list
 ```
 
-
+![](https://github.com/liamb8/sys350/blob/main/Pictures/Lab5/FlavorList.JPG)
 
 ## Identities
 
@@ -230,7 +228,7 @@ To list all roles, execute the following command:
 $ openstack --insecure role list
 ```
 
-
+![](https://github.com/liamb8/sys350/blob/main/Pictures/Lab5/RoleList.JPG)
 
 To create a project, execute the following command:
 
@@ -244,7 +242,7 @@ To list all projects, execute the following command:
 $ openstack --insecure project list --domain mydomain
 ```
 
-
+![](https://github.com/liamb8/sys350/blob/main/Pictures/Lab5/ProjectList.JPG)
 
 To create the user, execute the following command:
 
