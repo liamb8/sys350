@@ -14,13 +14,15 @@ Open Windows Server Manager and click on `Add Roles and Features`
 
 Install Hyper-V `Server Roles -> Hyper-V` and then install that role. 
 
+[](https://github.com/liamb8/sys350/blob/main/Pictures/Lab11/Hyper-V.png)
+
 ## Configure Hyper-V Network
 
 After installing the Hyper-V role open the Hyper-V Manager.
 
 After launching the Hyper-V Manager under `Action` click `Virtual Switch Manager`. Add an `Internal` and `External` network. Make sure the external network is on the correct interface otherwise you won't get any internet since it doesn't know where to send traffic to. 
 
-
+[](https://github.com/liamb8/sys350/blob/main/Pictures/Lab11/VirtualSwitch.png)
 
 ## Install Windows Admin Center
 
