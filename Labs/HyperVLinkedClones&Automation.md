@@ -16,9 +16,7 @@ First download the Ubuntu Desktop image iso and sysprep it using this [script](h
 
 After this go to the File Explorer where the Ubuntu Desktop vhdx file is located and open the properties and set it to `Read-only`. 
 
-**ADD IMAGE HERE**
-
-
+![](https://github.com/liamb8/sys350/blob/main/Pictures/Lab12/UbuntuReadOnly.jpg)
 
 After making it Read-only create a new Child Disk. Go to the Hyper-V Manager and select Action then New -> Hard Disk, Next -> VHDX, Next -> Differencing, Next -> VM Name, Next -> Create a new folder for the linked clone to be stored in, Next -> Select location of the parent VM vhdx file. Select Next then read teh summary and select finish.
 
